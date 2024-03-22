@@ -1,0 +1,47 @@
+# JourneyOrchestrationApi.RuleData
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**apiVersion** | **String** |  | [optional] 
+**autoloader** | **Object** |  | [optional] 
+**client** | **String** |  | [optional] 
+**datagrids** | **[Object]** |  | [optional] 
+**description** | **String** | A description of the rule | [optional] 
+**edges** | **[Object]** |  | [optional] 
+**exampleData** | **String** |  | [optional] 
+**hasAutoloader** | **Boolean** |  | [optional] 
+**hasRuledesigner** | **Boolean** |  | [optional] 
+**helpLink** | **String** |  | [optional] 
+**isValid** | **Boolean** |  | [optional] 
+**journeys** | **[String]** |  | [optional] 
+**lastSeen** | **String** |  | [optional] 
+**latestTemplateVersions** | **Boolean** |  | [optional] 
+**logLevel** | [**LogLevelEnum**](LogLevelEnum.md) |  | [optional] 
+**modifiedDate** | **String** |  | [optional] 
+**name** | **String** |  | [optional] 
+**newerTemplateVersion** | **Number** |  | [optional] 
+**parameters** | [**[RuleParameter]**](RuleParameter.md) |  | [optional] 
+**priorityWeighting** | [**PriorityWeighting**](PriorityWeighting.md) |  | [optional] 
+**relativeTime** | **String** |  | [optional] 
+**requestedAt** | **String** |  | [optional] 
+**rulegroups** | **[String]** |  | [optional] 
+**securityOption** | **String** |  | [optional] 
+**state** | [**RuleStateEnum**](RuleStateEnum.md) |  | [optional] 
+**stateModifiedDate** | **String** |  | [optional] 
+**statistics** | [**Statistics**](Statistics.md) |  | [optional] 
+**target** | **String** |  | [optional] 
+**templateName** | **String** |  | [optional] 
+**templateURL** | **String** |  | [optional] 
+**templateVersion** | **Number** |  | [optional] 
+**tiles** | **[Object]** |  | [optional] 
+**type** | **String** |  | [optional] 
+**urlPath** | **String** |  | [optional] 
+**version** | **Number** |  | [optional] 
+**wtlLoggingActive** | **Boolean** |  | [optional] 
+**wtlLoggingAllowed** | **Boolean** |  | [optional] 
+**requestContentType** | **String** |  | [optional] 
+**snoozed** | **Boolean** |  | [optional] 
+
+
